@@ -1,0 +1,92 @@
+{
+  "stardew-valley": [
+    {
+      "id": "1",
+      "title": "You're moving to the valley...",
+      "gameName": "Stardew Valley",
+      "descriptions": [
+        "You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+        "Now with Multiplayer! Invite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources, and build relationships with townspeople or each other. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience."
+      ],
+      "descriptionImage": {
+        "src": "/assets/screen3.png",
+        "width": 500,
+        "height": 500,
+        "alt": "description image"
+      },
+      "images": [
+        {
+          "src": "/assets/image1.png",
+          "width": 800,
+          "height": 600,
+          "alt": "another image"
+        },
+        {
+          "src": "/assets/image2.png",
+          "width": 1024,
+          "height": 768,
+          "alt": "yet another image"
+        }
+      ],
+      "demonstrationImage": [
+        {
+          "src": "/assets/demonstrationImageStardew.jpg",
+          "alt": "Stardew Valley demonstration Image"
+        }
+      ],
+      "otherGames": {
+        "name": "My Time at Portia",
+        "href": "/product/my-time-at-portia",
+        "image": {
+          "src": "/my-time-portia.jpg",
+          "alt": "My Time at Portia"
+        }
+      }
+    }
+  ],
+  "my-time-at-portia": [
+    {
+      "id": "2",
+      "title": "Start a new life in the enchanting town of Portia!",
+      "gameName": "My Time at Portia",
+      "descriptions": [
+        "Restore your Pa's neglected workshop to its former glory by fulfilling commissions, growing crops, raising animals, and befriending the quirky inhabitants of this charming post-apocalyptic land!",
+        "Armed with your Pa's old handbook and workbench, you must gather, mine and craft your way to being crowned the number one workshop in Portia. Help the locals rebuild the town and uncover the secrets locked deep away beneath it. Be prepared though…it won't be easy!"
+      ],
+      "descriptionImage": {
+        "src": "/assets/screen3.png",
+        "width": 500,
+        "height": 500,
+        "alt": "description image"
+      },
+      "images": [
+        {
+          "src": "/assets/image1.png",
+          "width": 800,
+          "height": 600,
+          "alt": "another image"
+        },
+        {
+          "src": "/assets/image2.png",
+          "width": 1024,
+          "height": 768,
+          "alt": "yet another image"
+        }
+      ],
+      "demonstrationImage": [
+        {
+          "src": "/assets/demonstrationImagePortia.jpg",
+          "alt": "My Time At Portia Demonstration Image"
+        }
+      ],
+      "otherGames": {
+        "name": "Stardew Valley",
+        "href": "/stardew-valley",
+        "image": {
+          "src": "/assets/stardew.jpg",
+          "alt": "Stardew Valley"
+        }
+      }
+    }
+  ]
+}
