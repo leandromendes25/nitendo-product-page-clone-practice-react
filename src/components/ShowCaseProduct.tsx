@@ -6,7 +6,7 @@ import SliderComponent from "./pdp/SliderComponent";
 import useSearchData from "./hooks/useSearchData";
 import { propsGameDescription } from "./pdp/GameDescription";
 
-const path = "/essencials/";
+const path = "/assets/";
 
 const images = [
   {
@@ -17,7 +17,7 @@ const images = [
 
   {
     id: 3,
-    src: `${path}screen3.jpg`,
+    src: `${path}screen2.jpg`,
     alt: "Print 3",
   },
   {
@@ -37,7 +37,7 @@ const images = [
   },
   {
     id: 8,
-    src: `${path}screen3.jpg`,
+    src: `${path}screen4.jpg`,
     alt: "Print 8",
   },
   {
@@ -47,7 +47,7 @@ const images = [
   },
   {
     id: 10,
-    src: `${path}screen3.jpg`,
+    src: `${path}screen4.jpg`,
     alt: "Print 8",
   },
 ];
@@ -59,7 +59,7 @@ export default function ShowCaseProduct({
 }: propsGameDescription) {
   return (
     <div className="bg-nitendo-light-blue flex justify-center ">
-      <div className="w-full md:w-min">
+      <div className="w-full md:w-auto">
         <div className="bg-white px-4 py-4 relative rounded-lg lg:shadow-lg lg:px-6 lg:top-8">
           <Breadcrumb data={data} loading={loading} error={error} />
           <div className="max-w-screen-xl lg:flex lg:gap-8">

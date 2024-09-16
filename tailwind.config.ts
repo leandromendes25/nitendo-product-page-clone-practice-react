@@ -14,6 +14,15 @@ const config: Config = {
         'nitendo-light-blue' : '#d6f0fa',
         'nitendo-gray' : '#efefef',
         'nitendo-light-dark' : '#434242'
+      },
+      keyframes: {
+        bouncing:{
+          '25%, 75%': { transform: 'scale(1.1)' },
+          '50%, 100%': { transform: 'scale(1)' }, 
+               }
+      },
+      animation: {
+        bouncing: 'bouncing 1s ease-in-out', 
       }
     },
   },

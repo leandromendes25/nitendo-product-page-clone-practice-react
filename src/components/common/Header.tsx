@@ -56,7 +56,7 @@ export default function Header() {
         <Overlay />
 
         <div className="bg-nitendo-gray text-nitendo-light-dark py-3 text-center flex justify-center">
-          <TruckIcon className="mr-4 text-nitendo-red" />
+          <TruckIcon className="mr-4 text-nitendo-red hidden md:block" />
           <strong>Free shipping</strong>
           <span className="ml-1 mx-4">
             on orders $50 or more.{" "}

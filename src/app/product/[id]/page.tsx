@@ -13,13 +13,13 @@ export default function Page({ params }: { params: { id: string } }) {
   const { data, loading, error } = useSearchData(params.id);
   return (
     <>
-      <main>
+      <main className="mx-4">
         <ShowCaseProduct data={data} loading={loading} error={error} />
         <GameDescription data={data} loading={loading} error={error} />
-        <div className="flex flex-col items-center md:items-start md:flex-row">
-          <div className="bg-nitendo-gray rounded-lg  my-1">
-            <h3 className="text-center font-semibold mt-3">ESRB rating</h3>
-            <AgeRestriction className="shadow" />
+        <div className="flex flex-col items-center md:items-start gap-4 md:flex-row">
+          <div className="bg-nitendo-gray rounded-lg  my-1 w-full">
+            <h3 className="text-center font-semibold mt-5 mb-7">ESRB rating</h3>
+            <AgeRestriction className="shadow-lg" />
           </div>
           <SupportedModes />
         </div>

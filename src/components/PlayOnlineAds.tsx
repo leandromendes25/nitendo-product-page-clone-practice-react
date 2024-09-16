@@ -5,8 +5,8 @@ import Button from "./common/Button";
 
 export default function PlayOnlineAds() {
   return (
-    <section className="relative">
-      <div className="p-10 bg-nitendo-gray rounded-lg ">
+    <section className="">
+      <div className="p-10 bg-nitendo-gray rounded-lg flex">
         <div className="">
           <Image
             src="/online.svg"
@@ -31,6 +31,7 @@ export default function PlayOnlineAds() {
         </div>
         <div className="relative w-full">
           <Image
+            className="object-contain"
             src="/pro-controller.png"
             fill
             alt="Controle nitendo switch pro"
